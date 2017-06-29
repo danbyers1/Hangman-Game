@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Days One', sans-serif;
+
+}
+body {
+    font-family: sans-serif;
+    padding-top: 20px;
+    
+}
+
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align:center;
+    background-image: url(http://thetexasrepublic.com/wp-content/uploads/2015/03/Texas-Flag-old-wood.jpg);
+    background-size: 100%;
+    text-shadow: 3px 2px 4px white;
+}
+
+.letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.current-word {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+}
+.correct {
+    color:blue;
+    
+}
+.error {
+    color: red;
+    opacity: 1;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.warning {
+    color: purple;
+    opacity: 1;
+}
+.win {
+    color: green;
+    opacity: 1;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.col-md-4 {
+    text-align:center;
+}
+
+.hangman {
+    font-size:large;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman-Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+  	<h1>Texas Hangman Game</h1>
+  	<p>Guess the Texas state symbols, or be sent to the gallows</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+		<form id="hangman">
+    		<input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+    		<button id="guess" name="guess" type="submit" class="btn btn-primary">Guess</button>
+    		<button id="restart" name="restart" type="button" class="btn btn-primary">Restart</button>
+		</form>
+		<ul id="letters"></ul>
+		<p id="man"></p>
+		<p id="output" class="output"></p>
+	</div>
+	<div class="col-md-4"></div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
